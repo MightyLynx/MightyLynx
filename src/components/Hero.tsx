@@ -14,11 +14,9 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 grid-background opacity-30" />
 
-      {/* Glass morphism elements */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-primary/20 blur-3xl" />
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full bg-accent/20 blur-3xl" />
 
-      {/* Floating glass cards */}
       <div
         className="absolute top-20 right-20 w-64 h-48 rounded-2xl border border-primary/30 bg-card/10 backdrop-blur-xl shadow-2xl hidden lg:block animate-fade-in"
         style={{ animationDelay: "0.5s" }}
@@ -44,7 +42,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Main content */}
       <div className="container mx-auto px-6 relative z-10">
         <img src="./pfp.jpg" alt="" className="rounded-full mx-auto my-5 w-24 h-24 border border-primary/100" />
 
@@ -66,7 +63,6 @@ const Hero = () => {
             and design. Transform your vision into reality.
           </p>
 
-          {/* Buttons with scroll functionality */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
             <Button
               size="lg"
@@ -81,7 +77,7 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="border-primary/30 hover:bg-primary/10"
-              onClick={() => scrollToSection("about")}
+              onClick={() => scrollToSection("contact")}
             >
               Contact Me
             </Button>
@@ -89,7 +85,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Decorative glow circles */}
       <div className="absolute top-20 left-10 w-20 h-20 rounded-full border-2 border-primary/20 animate-glow" />
       <div
         className="absolute bottom-20 right-10 w-32 h-32 rounded-full border-2 border-primary/20 animate-glow"

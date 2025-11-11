@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-24 relative overflow-hidden bg-primary/5">
+    <section id="contact" className="py-24 relative overflow-hidden bg-primary/5">
       <div className="absolute inset-0 grid-background opacity-30" />
       
       <div className="container mx-auto px-6 relative z-10">

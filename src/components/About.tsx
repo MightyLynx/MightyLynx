@@ -76,7 +76,6 @@ const About = () => {
             })}
           </div>
 
-          {/* Testimonial / Stats section */}
           <div className="mt-16 flex flex-col sm:flex-row sm:flex-wrap sm:justify-center gap-6 sm:gap-8 p-8 rounded-2xl border border-primary/20 bg-card/30 backdrop-blur text-center">
             <div className="flex-1 min-w-[120px]">
               <div className="text-4xl font-bold text-primary mb-2">5+</div>
